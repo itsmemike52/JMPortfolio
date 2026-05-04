@@ -11,7 +11,7 @@ export default function Header({ isDark, setIsDark }: HeaderProps) {
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <h1 className="text-2xl font-serif font-bold ghibli-text-gradient">
-            Portfolio
+            CONARCO
           </h1>
           <div className="hidden md:flex gap-6 text-gray-700 dark:text-gray-300">
             <a href="#projects" className="hover:text-ghibli-coral transition">Projects</a>
