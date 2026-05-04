@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl;
+  }
+
+  .glass-dark {
+    @apply bg-black/20 backdrop-blur-md border border-white/10 rounded-2xl;
+  }
+
+  .floating-card {
+    @apply transition-all duration-300 hover:shadow-2xl hover:scale-105;
+  }
+
+  .ghibli-text-gradient {
+    @apply bg-gradient-to-r from-ghibli-coral via-ghibli-softblue to-ghibli-sage bg-clip-text text-transparent;
+  }
+}
