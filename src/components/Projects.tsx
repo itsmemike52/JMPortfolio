@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
 import { ChevronLeft, ChevronRight, ExternalLink, Github, X } from 'lucide-react'
-import jmImage from '../assets/jm.jpg'
-import firstImage from '../assets/first.png'
+//import jmImage from '../assets/jm.jpg'
+//import firstImage from '../assets/first.png'
+import insertImage from '../assets/insert.jpg'
+import insert2Image from '../assets/insert2.jpg'
 
 interface Project {
   title: string
@@ -227,8 +229,8 @@ export default function Projects({ isDark }: ProjectsProps) {
       tags: ["React", "Framer Motion", "Tailwind"],
       link: "#",
       github: "#",
-      image: jmImage,
-      images: [jmImage, firstImage],
+      image: insert2Image,
+      images: [insertImage, insert2Image],
       imagePosition: "center 25%",
     },
     {
@@ -237,8 +239,8 @@ export default function Projects({ isDark }: ProjectsProps) {
       tags: ["Next.js", "Three.js", "Spline"],
       link: "#",
       github: "#",
-      image: firstImage,
-      images: [firstImage, jmImage],
+      image: insertImage,
+      images: [insertImage, insert2Image],
       imagePosition: "center 25%",
     },
     {
