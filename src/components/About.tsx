@@ -35,7 +35,9 @@ export default function About({ isDark: _isDark }: AboutProps) {
 
           <div>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              John
+              I'm a passionate designer and developer who believes in creating digital experiences
+              that inspire and delight. Influenced by the aesthetics of Studio Ghibli, I blend
+              creativity with functionality to craft meaningful projects.
             </p>
 
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
